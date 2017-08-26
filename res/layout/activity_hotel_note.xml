@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.way.scrollview.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/coversation_bg"
+        android:fillViewport="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ededed"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="10.0dip" >
+        <TextView 
+            android:autoLink="all"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="1，凡住宿宾客请入住时，提供有效身份证做好登记。\n
+2，宾客不得私自留客住宿，及转让房。\n
+3，严禁宾客将易燃易爆腐蚀性等危险品带入房内。\n
+4，要文明礼貌，不得酗酒滋事、高声喧哗、高声音响，影响他人作息。\n
+5，住宿者如持有贵重物品，请各自妥善保管，并锁好房门。\n
+6，注意退房时间，超时收费。"
+            />
+        </LinearLayout>
+    </com.way.scrollview.BounceScrollView>
+
+</LinearLayout>

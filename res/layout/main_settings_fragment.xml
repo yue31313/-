@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.way.scrollview.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/coversation_bg"
+        android:fillViewport="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffa"
+            android:orientation="vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="10.0dip" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#A23F2A"
+                android:text="更多" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#43CD80"
+                android:onClick="aboueMe"
+                android:text="宾馆信息" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#8E388E"
+                android:onClick="huaFeiChongZhi"
+                android:text="宾馆邮箱" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#DAA520"
+                android:onClick="weatherSearch"
+                android:text="宾馆资料集合" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#EDEDED"
+                android:onClick="hotelNews"
+                android:text="宾馆QQ" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#EE3A8C"
+                android:onClick="autoChat"
+                android:text="宾馆微信" />
+        </LinearLayout>
+    </com.way.scrollview.BounceScrollView>
+
+</LinearLayout>

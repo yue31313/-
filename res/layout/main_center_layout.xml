@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   <com.way.scrollview.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/coversation_bg"
+        android:fillViewport="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffa"
+            android:orientation="vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="10.0dip" >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#A23F2A"
+        android:src="@drawable/mainlogo" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#43CD80"
+        android:onClick="jianJia"
+        android:text="房型价目" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#8E388E"
+        android:onClick="yaoQing"
+        android:text="宾馆apk应用" />
+
+    <Button
+        android:id="@+id/btn_msg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#DAA520"
+        android:onClick="chouJiang"
+        android:text="收到的消息" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#EDEDED"
+        android:onClick="yiLong"
+        android:text="艺龙入住返现13元" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#EE3A8C"
+        android:onClick="guaGuaKa"
+        android:text="宾馆新浪微博" />
+    </LinearLayout>
+   </com.way.scrollview.BounceScrollView>
+</LinearLayout>
